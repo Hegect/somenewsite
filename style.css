@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: #334e23;
+}
+.first_title{
+    height: 100vh;
+}
+
+
+header{
+display: flex;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    margin-top: 5vh;
+}
+.menu_item{
+    width: 15%;
+    height: 7vh;
+    background-color: #345127;
+    border-radius: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+    color:#a69a78;
+    transition-duration: .3s;
+}
+.menu_item:hover{
+    margin-top: -0.5vh;
+    width: 20%;
+    height: 8vh;
+    
+    font-size: 35px;
+}
+
+.title_img img{
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.title{
+    padding-top: 10vh;
+    padding-left: 3%;
+}
+.china{
+    font-size: 200px;
+}
+.sub_title{
+    font-size: 63px;
+}
+
+.title_bottom{
+
+    z-index: 100;
+}
+.title_bottom img{
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+    opacity: 0.9;
+}
+
+.second_title{
+    background-color: #334e23;
+    height: 100vh;
+    
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_item{
+    width: 50%;
+}
+
+.text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    color: #b8e999;
+}
+.about .about_item h1{
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+.about .about_item h1{
+    margin-top: -30%;
+    font-size: 95px;
+    background: #6f9558;
+    box-shadow: 0px 0px 100px 180px #6f9558;
+    border-radius: 100%;
+}
+
+.about_item_block{
+    margin-top: 0%;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.block_green{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    background-color: #80b064;
+    color: #598938;
+    border-radius: 20%;
+    padding: 10%;
+
+}
+.block_green p, .tea {
+    font-size: 40px;
+    color: #395c22;
+}
+
+p {
+    text-align: left;
+    position: relative;
+}
+.block2{
+    margin-top: -20%;
+}
+.block3{
+    margin-top: 25%;
+}
+.item_small_green{
+    border-radius: 70px;
+}
+
+.text_tea{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.mil{
+    font-size: 30px;
+    color: #395c22;
+
+    width: 50%;
+    text-align: right;
+    border-bottom: 1px solid black;
+}
+.price{
+    font-size: 40px;
+    color: #395c22;
+}
+.bloc_price{
+    display: block;
+    text-align: left;
+}
+.block5{
+    margin-top: -25%;
+}
+
+@media(max-width: 500px) {
+
+    body{
+        background-color: #334e23;
+    }
+    .first_title{
+        height: 30vh;
+    }
+    
+    
+    header{
+    display: flex;
+    }
+    .menu{
+        width: 100%;
+        display: flex;
+        margin-top: 2vh;
+    }
+    .menu_item{
+        width: 15%;
+        height: 2vh;
+        background-color: #345127;
+        border-radius: 30px;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 10px;
+        font-weight: bold;
+        color:#a69a78;
+        transition-duration: .3s;
+    }
+    .menu_item:hover{
+        margin-top: -0.5vh;
+        width: 20%;
+        height: 3vh;
+        
+        font-size: 13px;
+    }
+    
+    .title_img img{
+        position: absolute;
+        z-index: -100;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        overflow-x: hidden;
+    }
+    .title{
+        padding-top: 6.5vh;
+        padding-left: 9%;
+    }
+    .china{
+        font-size: 70px;
+        letter-spacing: 2px;
+    }
+    .sub_title{
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-top: -10px;
+    }
+    
+    .title_bottom{
+    
+        z-index: 10220;
+    }
+    .title_bottom img{
+        
+        position: absolute;
+        top: 190px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        opacity: 0.9;
+
+    }
+    
+    .second_title{
+        background-color: #334e23;
+        height: 115vh;
+        
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about_item{
+        width: 50%;
+    }
+    
+    .text{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+        color: #b8e999;
+    }
+    .about .about_item h1{
+        font-weight: bold;
+        letter-spacing: 1px;
+    
+    }
+    .about .about_item h1{
+        margin-top: -30%;
+        font-size: 25px;
+        background: #6f9558;
+        box-shadow: 0px 0px 30px 50px #6f9558;
+        border-radius: 100%;
+    }
+    
+    .about_item_block{
+        margin-top: 0%;
+        padding: 5px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .block_green{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+        width: 100%;
+        height: 100%;
+        background-color: #80b064;
+        color: #598938;
+        border-radius: 20%;
+        padding: 10%;
+    
+    }
+    .block_green p, .tea {
+        font-size: 10px;
+        color: #395c22;
+    }
+    
+    p {
+        text-align: left;
+        position: relative;
+    }
+    .block2{
+        margin-top: -10%;
+    }
+    .block3{
+        margin-top: 25%;
+    }
+    .item_small_green{
+        border-radius: 70px;
+    }
+    
+    .text_tea{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    
+    .mil{
+        font-size: 10px;
+        color: #395c22;
+    
+        width: 50%;
+        text-align: right;
+        border-bottom: 1px solid black;
+    }
+    .price{
+        font-size: 13px;
+        color: #395c22;
+    }
+    .bloc_price{
+        display: block;
+        text-align: left;
+        line-height: 10px;
+    }
+    .block5{
+        margin-top: -25%;
+    }
+    
+
+
+}
